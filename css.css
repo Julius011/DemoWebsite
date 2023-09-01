@@ -1,5 +1,9 @@
 body {
+    width: 100%;
+    height: 100%;
     display: grid;
+    grid-row: 3;
+    grid-column: 1;
     grid-template-columns: 1;
     grid-template-rows: 15%, 80%, 5%;
 }
@@ -9,8 +13,21 @@ header {
     width: 100%;
     background-color: brown;
     text-align: center;
+    align-items: center;
     color: aliceblue;
 
 }
 
-footer {}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-column: 3;
+    grid-row: 1;
+    grid-template-columns: auto;
+}
