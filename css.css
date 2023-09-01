@@ -1,0 +1,16 @@
+body {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 15%, 80%, 5%;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    background-color: brown;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+footer {}
